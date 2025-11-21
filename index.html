@@ -9,7 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
+
     <!-- Hero Section -->
     <header class="hero" data-aos="fade-up">
         <div class="hero-content">
@@ -36,10 +38,12 @@
                 <h3>Programming Languages</h3>
                 <p>C, Java, Python, SQL</p>
             </div>
+
             <div class="card" data-aos="zoom-in">
                 <h3>Web Development</h3>
                 <p>HTML, CSS</p>
             </div>
+
             <div class="card" data-aos="zoom-in">
                 <h3>Tools & Frameworks</h3>
                 <p>Apache Kafka, Spring Kafka</p>
@@ -47,22 +51,43 @@
         </div>
     </section>
 
+    <!-- E-BOOK PORTFOLIO SECTION (ADDED HERE) -->
+    <section id="ebook-portfolio" class="ebook-section" data-aos="fade-up">
+        <h2>My E-Book Portfolio</h2>
+
+        <p class="ebook-description">
+            Apart from engineering and development, I also create digital eBooks in my free time.
+            It is one of my creative passions where I design helpful guides on Job Search,
+            Makeup & Skincare, Fitness, Wedding Tips, Outfit & Styling books and more.
+            These projects help me express creativity and improve my design and content writing skills.
+        </p>
+
+        <a href="https://www.canva.com/design/DAG4xtcLCKE/xD7Er4_vFfkXyE_Nn9dNmg/edit?utm_content=DAG4xtcLCKE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+           class="ebook-btn" target="_blank">
+            View My Canva E-Book Portfolio
+        </a>
+    </section>
+
     <!-- Projects Section -->
     <section id="projects" class="section" data-aos="fade-up">
         <h2>Projects</h2>
         <div class="card-container">
+
             <div class="card" data-aos="flip-left">
                 <h3>Heart Rate Monitor System</h3>
                 <p>Developed a system using Arduino and a heartbeat sensor to track heart rate efficiently.</p>
             </div>
+
             <div class="card" data-aos="flip-left">
                 <h3>Pattern Recognition of Finger Movements</h3>
                 <p>Implemented machine learning techniques to classify finger movements from SEMG signals.</p>
             </div>
+
             <div class="card" data-aos="flip-left">
                 <h3>Real-time Kafka to WebSocket Data Streaming</h3>
                 <p>Created a Java application to consume Kafka topics and convert them to WebSocket notifications.</p>
             </div>
+
         </div>
     </section>
 
@@ -91,9 +116,9 @@
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-        AOS.init();  // Initialize AOS animations
+        AOS.init();
 
-        // Smooth scrolling for navigation links
+        // Smooth scrolling
         document.querySelectorAll('nav a').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -104,5 +129,7 @@
             });
         });
     </script>
+
 </body>
 </html>
+
